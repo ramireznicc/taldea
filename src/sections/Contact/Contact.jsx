@@ -41,7 +41,7 @@ export const Contact = () => {
   return (
     <Container
       maxWidth="md"
-      sx={{ display: "flex", flexDirection: "column", gap: "16px" }}
+      sx={{ display: "flex", flexDirection: "column", gap: "16px", my: "32px" }}
     >
       <Box>
         <Typography

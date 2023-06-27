@@ -17,17 +17,22 @@ export const Footer = () => {
     <Box
       sx={{
         display: "flex",
+        flexDirection: { xs: "column", md: "column" },
         alignItems: "center",
-        justifyContent: "flex-end",
+        justifyContent: "space-between",
         width: "100%",
-        py: "6px",
-        px: "12px",
+        py: "12px",
+        gap: "12px",
         background: "none",
+        opacity: ".5",
+        backgroundColor: "rgba(0,0,0,.2)",
+        borderTop: "solid 1px rgba(255,255,255,0.2)",
       }}
     >
-      <Typography sx={{ opacity: "0.7" }} variant="caption" justifySelf="end">
-        developed by {developer} | {year}
+      <Typography variant="caption" fontWeight={700}>
+        Taldea S.A.S. © All rights reserved | {year}
       </Typography>
+      <Typography variant="caption">developed by {developer}</Typography>
     </Box>
   );
 };

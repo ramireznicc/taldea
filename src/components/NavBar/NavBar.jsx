@@ -11,7 +11,7 @@ import {
 import { Logo } from "../Logo/Logo";
 import { NavLink } from "react-router-dom";
 // *ICONS IMPORTS
-import { ListAlt, Groups, Send, MenuOpen } from "@mui/icons-material/";
+import { ListAlt, Groups, Mail, MenuOpen } from "@mui/icons-material/";
 
 export const NavBar = () => {
   const itemsMenu = [
@@ -28,7 +28,7 @@ export const NavBar = () => {
     {
       name: "Contacto",
       path: "/contacto",
-      icon: <Send fontSize="small" />,
+      icon: <Mail fontSize="small" />,
     },
   ];
 

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Vinilo 1",
+    "category": "vinilos",
+    "brand": "oracal",
+    "description": "Vinilo de corte - Rollo 50mts",
+    "image": "https://static7.depositphotos.com/1006308/706/i/450/depositphotos_7066450-stock-photo-digital-printing-adhesive-paper.jpg"
+  },
+  {
+    "name": "Vinilo 2",
+    "category": "vinilos",
+    "brand": "avery",
+    "description": "Vinilo de corte - Rollo 50mts",
+    "image": "https://dojiw2m9tvv09.cloudfront.net/9549/product/vinilo9982.jpg"
+  },
+  {
+    "name": "Vinilo 3",
+    "category": "vinilos",
+    "brand": "oracal",
+    "description": "Vinilo de corte - Rollo 50mts",
+    "image": "https://image.made-in-china.com/202f0j00yonpwieIMUuF/Factory-Price-PVC-Color-Cutting-Vinyl-Sticker-Vinyl-Roll-Craft-Cutting-Vinyl-Decorate.jpg"
+  },
+  {
+    "name": "Plotter 1",
+    "category": "plotters",
+    "brand": "mimaki",
+    "description": "Plotter de corte - 90 cm de ancho",
+    "image": "https://d2w577gk9zpoty.cloudfront.net/archives/002/202202/3f0d24d02178b542fe0de2dee4347ba56a872594482f6dd14c04edd3f754ef2e.jpg"
+  },
+  {
+    "name": "Plotter 2",
+    "category": "plotters",
+    "brand": "roland",
+    "description": "Plotter de corte - 130cm de ancho",
+    "image": "https://d2w577gk9zpoty.cloudfront.net/archives/002/202011/9a4e3b43a4f3541b9e5e03054d084bf17736c76c1d89fbc87c76906a21019174.jpg"
+  },
+  {
+    "name": "Plotter 3",
+    "category": "plotters",
+    "brand": "mimaki",
+    "description": "Plotter de corte - 60cm de ancho",
+    "image": "https://d2w577gk9zpoty.cloudfront.net/archives/002/201909/df4fecf48193d04a8214ad47fe105a4d.jpg"
+  }
+]
