@@ -1,12 +1,12 @@
 import { useState } from "react";
 import {
-  AppBar,
   Box,
   Menu,
   MenuItem,
   IconButton,
   Button,
   Toolbar,
+  Container,
 } from "@mui/material";
 import { Logo } from "../Logo/Logo";
 import { NavLink } from "react-router-dom";
@@ -18,17 +18,17 @@ export const NavBar = () => {
     {
       name: "Productos",
       path: "/productos",
-      icon: <ListAlt fontSize="small" />,
+      icon: <ListAlt color="primary" fontSize="small" />,
     },
     {
       name: "Nosotros",
       path: "/nosotros",
-      icon: <Groups fontSize="small" />,
+      icon: <Groups color="primary" fontSize="small" />,
     },
     {
       name: "Contacto",
       path: "/contacto",
-      icon: <Mail fontSize="small" />,
+      icon: <Mail color="primary" fontSize="small" />,
     },
   ];
 
@@ -43,7 +43,14 @@ export const NavBar = () => {
   };
 
   return (
-    <AppBar enableColorOnDark position="static" color="primary">
+    <Container
+      maxWidth={false}
+      disableGutters
+      sx={{
+        backgroundColor: "rgba(0, 0, 0, .1)",
+        borderBottom: "solid 1px rgba(255,255,255,0.2)",
+      }}
+    >
       <Toolbar disableGutters>
         <Box
           sx={{
@@ -109,7 +116,7 @@ export const NavBar = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="secondary"
+              color="primary"
             >
               <MenuOpen />
             </IconButton>
@@ -147,6 +154,6 @@ export const NavBar = () => {
           </Box>
         </Box>
       </Toolbar>
-    </AppBar>
+    </Container>
   );
 };

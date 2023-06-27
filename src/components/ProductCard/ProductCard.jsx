@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Paper, Box, Typography, Button } from "@mui/material";
+import { Paper, Box, Typography, Button, Divider } from "@mui/material";
 import { Send } from "@mui/icons-material";
 
 export const ProductCard = ({ product }) => {
@@ -28,21 +28,27 @@ export const ProductCard = ({ product }) => {
       >
         <Typography
           textTransform="uppercase"
-          letterSpacing={1}
+          letterSpacing={1.5}
           fontWeight={700}
           variant="h6"
-          color="secondary"
+          color="primary"
         >
           {product.name}
         </Typography>
         <Typography
           variant="caption"
-          textTransform="capitalize"
-          color="primary"
+          textTransform="uppercase"
+          color="secondary"
+          fontFamily="Roboto Mono"
+          letterSpacing={1.5}
         >
           {product.brand}
         </Typography>
-        <Typography variant="body2" sx={{ opacity: ".8", flexGrow: 1 }}>
+        <Divider sx={{ py: "4px" }} flexItem />
+        <Typography
+          variant="body2"
+          sx={{ opacity: ".8", flexGrow: 1, py: "4px" }}
+        >
           {product.description}
         </Typography>
         <Button
@@ -50,9 +56,8 @@ export const ProductCard = ({ product }) => {
             width: "fit-content",
             alignSelf: "flex-end",
           }}
-          variant="contained"
-          disableElevation
-          endIcon={<Send fontSize="small" />}
+          color="secondary"
+          endIcon={<Send color="primary" fontSize="small" />}
           fullWidth={false}
           size="small"
           LinkComponent={Link}

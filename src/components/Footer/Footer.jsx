@@ -3,6 +3,7 @@ import { Box, Link, Typography } from "@mui/material";
 export const Footer = () => {
   const developer = (
     <Link
+      underline="hover"
       color="secondary"
       target="_blank"
       href="https://ramireznicc.github.io"
@@ -24,15 +25,16 @@ export const Footer = () => {
         py: "12px",
         gap: "12px",
         background: "none",
-        opacity: ".5",
-        backgroundColor: "rgba(0,0,0,.2)",
+        backgroundColor: "rgba(0,0,0,.1)",
         borderTop: "solid 1px rgba(255,255,255,0.2)",
       }}
     >
-      <Typography variant="caption" fontWeight={700}>
+      <Typography sx={{ opacity: "0.4" }} variant="caption" fontWeight={700}>
         Taldea S.A.S. © All rights reserved | {year}
       </Typography>
-      <Typography variant="caption">developed by {developer}</Typography>
+      <Typography sx={{ opacity: "0.4" }} variant="caption">
+        developed by {developer}
+      </Typography>
     </Box>
   );
 };

@@ -25,6 +25,7 @@ export const Products = () => {
             <Typography
               color="primary"
               variant="caption"
+              fontFamily="Roboto Mono"
               textTransform="uppercase"
             >
               {category}

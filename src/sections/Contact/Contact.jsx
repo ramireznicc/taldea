@@ -17,22 +17,22 @@ import {
 const contactMethods = [
   {
     name: "WhatsApp",
-    icon: <WhatsApp fontSize="small" color="secondary" />,
+    icon: <WhatsApp fontSize="small" color="primary" />,
     link: "",
   },
   {
     name: "Instagram",
-    icon: <Instagram fontSize="small" color="secondary" />,
+    icon: <Instagram fontSize="small" color="primary" />,
     link: "https://www.instagram.com/taldea.sas/",
   },
   {
     name: "Facebook",
-    icon: <Facebook fontSize="small" color="secondary" />,
+    icon: <Facebook fontSize="small" color="primary" />,
     link: "",
   },
   {
     name: "Email",
-    icon: <Email fontSize="small" color="secondary" />,
+    icon: <Email fontSize="small" color="primary" />,
     link: "",
   },
 ];
@@ -46,9 +46,9 @@ export const Contact = () => {
       <Box>
         <Typography
           variant="h5"
-          textTransform="uppercase"
           fontWeight="700"
-          color="secondary"
+          color="primary"
+          textTransform="uppercase"
         >
           Hacé tu consulta:
         </Typography>
@@ -68,11 +68,25 @@ export const Contact = () => {
         <TextField fullWidth multiline rows={6} label="Mensaje" />
       </Box>
       <Box display="flex" justifyContent="flex-end">
-        <Button variant="contained" disableElevation startIcon={<Send />}>
+        <Button
+          variant="outlined"
+          color="secondary"
+          disableElevation
+          startIcon={<Send color="primary" />}
+        >
           Enviar
         </Button>
       </Box>
-      <Divider sx={{ py: "12px" }}>Otras formas de contantactarnos:</Divider>
+      <Divider sx={{ py: "12px" }}>
+        <Typography
+          variant="caption"
+          fontFamily="Roboto Mono"
+          color="primary"
+          textTransform="uppercase"
+        >
+          Otras formas de contactarnos:
+        </Typography>
+      </Divider>
       <Box
         display="flex"
         flexDirection={{ xs: "column", md: "row" }}
@@ -81,6 +95,7 @@ export const Contact = () => {
       >
         {contactMethods.map((method) => (
           <Button
+            color="secondary"
             fullWidth="false"
             startIcon={method.icon}
             href={method.link}
