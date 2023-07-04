@@ -16,7 +16,7 @@ import { ListAlt, Groups, Mail, MenuOpen } from "@mui/icons-material/";
 export const NavBar = () => {
   const itemsMenu = [
     {
-      name: "Productos",
+      name: "Productos & Servicios",
       path: "/productos",
       icon: <ListAlt color="primary" fontSize="small" />,
     },

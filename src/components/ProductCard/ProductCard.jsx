@@ -26,13 +26,7 @@ export const ProductCard = ({ product }) => {
         flexDirection="column"
         flexGrow={1}
       >
-        <Typography
-          textTransform="uppercase"
-          letterSpacing={1.5}
-          fontWeight={700}
-          variant="h6"
-          color="primary"
-        >
+        <Typography textTransform="uppercase" variant="h6" color="primary">
           {product.name}
         </Typography>
         <Typography

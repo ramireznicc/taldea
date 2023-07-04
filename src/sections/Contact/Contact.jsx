@@ -18,7 +18,7 @@ const contactMethods = [
   {
     name: "WhatsApp",
     icon: <WhatsApp fontSize="small" color="primary" />,
-    link: "",
+    link: "https://api.whatsapp.com/send?phone=5493416128804",
   },
   {
     name: "Instagram",
@@ -33,7 +33,7 @@ const contactMethods = [
   {
     name: "Email",
     icon: <Email fontSize="small" color="primary" />,
-    link: "",
+    link: "mailto:info@taldea.com.ar",
   },
 ];
 
