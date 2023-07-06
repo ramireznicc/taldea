@@ -26,6 +26,7 @@ function App() {
             justifyContent: "space-between",
             alignItems: "center",
             height: "100vh",
+            overflowX: "hidden",
           }}
         >
           <NavBar />

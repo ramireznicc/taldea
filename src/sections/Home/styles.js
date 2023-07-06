@@ -5,7 +5,6 @@ export const styles = {
     display: "flex",
     flexDirection: "column",
     gap: "22px",
-    overflowX: "hidden",
   },
   header: {
     display: "flex",
