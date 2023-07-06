@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Mimaki",
+    "url": "https://es.mimakilatam.com/",
+    "image": "../../images/mimaki.png"
+  },
+  {
+    "name": "Avery Dennison",
+    "url": "https://www.averydennison.com/es/home.html",
+    "image": "../../images/avery.png"
+  },
+  {
+    "name": "Handel.inks",
+    "url": "",
+    "image": "../../images/handel.png"
+  },
+  {
+    "name": "Ariis",
+    "url": "",
+    "image": "../../images/ariis.png"
+  }
+]

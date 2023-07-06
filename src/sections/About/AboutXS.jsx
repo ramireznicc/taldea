@@ -9,49 +9,37 @@ export const AboutXS = () => {
       <Typography color="primary" sx={styles.text1}>
         del trabajo en equipo.
       </Typography>
-      <Divider light sx={{ my: "18px" }} />
-      <Typography sx={styles.text2}>Una joven empresa formada </Typography>
+      <Divider light sx={{ my: "8px" }} />
       <Typography sx={styles.text2}>
-        por un grupo de perfil profesional,
+        Una joven empresa formada <br />
+        por un grupo de perfil profesional, <br />
+        con vasta experiencia en la <br />
+        <b>importación y distribución</b> <br />
+        de equipamiento tecnológico, <br />
+        materiales y consumibles para la <br />
+        Comunicación Visual y la <br />
+        Industrial Textil.
       </Typography>
-      <Typography sx={styles.text3}>con vasta experiencia en la</Typography>
-      <Typography sx={styles.text3}>importación y distribución</Typography>
-      <Typography sx={styles.text2}>de equipamiento tecnológico,</Typography>
-      <Typography sx={styles.text2}>
-        materiales y consumibles para la
-      </Typography>
-      <Typography sx={styles.text3}> Comunicación Visual y la</Typography>
-      <Typography sx={styles.text3}>Industrial Textil.</Typography>
-      <Divider light sx={{ my: "18px" }} />
-      <Typography sx={styles.text4}>
-        Representantes de marcas líderes
-      </Typography>
-      <Typography variant="h5" color="secondary">
-        a nivel global,
-      </Typography>
-      <Typography sx={styles.text5}>brindamos un asesoramiento</Typography>
-      <Typography sx={styles.text5}>
-        responsable, junto a un servicio
-      </Typography>
-      <Typography variant="h5" color="secondary">
-        ágil y eficiente.
-      </Typography>
-      <Divider light sx={{ my: "18px" }} />
-      <Typography sx={styles.text2}>Ponemos el foco en</Typography>
-      <Typography textAlign="end" variant="h5" color="primary">
-        consolidar la confianza
-      </Typography>
+      <Divider light sx={{ my: "8px" }} />
       <Typography sx={styles.text3}>
-        que nuestros clientes nos depositan
+        Representantes de marcas líderes <br />
+        a nivel mundial, <br />
+        brindamos un asesoramiento <br />
+        <b>integral y personalizado,</b> <br />
+        junto a un servicio <br />
+        <b>ágil y eficiente.</b>
       </Typography>
-      <Typography sx={styles.text7}>
-        a través de un compromiso permanente,
+      <Divider light sx={{ my: "8px" }} />
+      <Typography sx={styles.text2}>
+        Ponemos el foco en <br />
+        consolidar la confianza <br />
+        que nuestros clientes nos depositan <br />
+        a través de un compromiso <br />
+        permanente, procurando dar <br />
+        respuestas a la altura <br />
+        de los desafíos y necesidades <br />
+        que sus proyectos demandan.
       </Typography>
-      <Typography sx={styles.text2}>procurando dar respuestas</Typography>
-      <Typography sx={styles.text6}>
-        a la altura de los desafíos y necesidades
-      </Typography>
-      <Typography sx={styles.text3}>que sus proyectos demandan.</Typography>
     </Box>
   );
 };

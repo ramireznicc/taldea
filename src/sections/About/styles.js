@@ -71,42 +71,7 @@ export const styles = {
       xs: "1.2rem",
       md: "1.5rem",
     },
-    textAlign: "end",
     color: "primary.main",
-    opacity: "0.9",
-  },
-  text4: {
-    fontSize: {
-      xs: "1.1rem",
-      md: "1.5rem",
-    },
-    color: "secondary.main",
-    opacity: "0.9",
-  },
-  text5: {
-    fontSize: {
-      xs: "1.1rem",
-      md: "1.5rem",
-    },
-    color: "primary.main",
-    opacity: "0.9",
-  },
-  text6: {
-    fontSize: {
-      xs: "1rem",
-      md: "1.5rem",
-    },
-    textAlign: "end",
-    color: "primary.main",
-    opacity: "0.9",
-  },
-  text7: {
-    fontSize: {
-      xs: "1rem",
-      md: "1.5rem",
-    },
-    textAlign: "end",
-    color: "secondary.main",
     opacity: "0.9",
   },
 };

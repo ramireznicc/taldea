@@ -9,38 +9,22 @@ export const AboutMD = () => {
       </Typography>
       <Divider light sx={{ my: "18px" }} />
       <Typography sx={styles.text2}>
-        Una joven empresa formada por un grupo de perfil profesional,
-      </Typography>
-      <Typography sx={styles.text3}>
-        con vasta experiencia en laimportación y distribución
-      </Typography>
-      <Typography sx={styles.text2}>
-        de equipamiento tecnológico, materiales y consumibles para la
-      </Typography>
-      <Typography sx={styles.text3}>
-        Comunicación Visual y la Industrial Textil.
+        Una joven empresa formada por un grupo de perfil profesional, <br />
+        con vasta experiencia en laimportación y distribución <br />
+        de equipamiento tecnológico, materiales y consumibles para la <br />
+        <b>Comunicación Visual y la Industrial Textil.</b>
       </Typography>
       <Divider light sx={{ my: "18px" }} />
-      <Typography sx={styles.text4}>
-        Representantes de marcas líderes a nivel global,
-      </Typography>
-      <Typography sx={styles.text5}>
-        brindamos un asesoramientoresponsable,
-      </Typography>
-      <Typography sx={styles.text4}>
-        junto a un servicio ágil y eficiente.
+      <Typography sx={styles.text3}>
+        Representantes de marcas líderes a nivel mundial, <br />
+        brindamos un asesoramiento <b>integral y personalizado,</b> <br />
+        junto a un servicio <b>ágil y eficiente.</b>
       </Typography>
       <Divider light sx={{ my: "18px" }} />
-      <Typography textAlign="end" variant="h5" color="primary">
-        Ponemos el foco enconsolidar la confianza
-      </Typography>
       <Typography sx={styles.text2}>
-        que nuestros clientes nos depositan a través de
-      </Typography>
-      <Typography sx={styles.text6}>
-        un compromiso permanente, procurando dar respuestas a la altura
-      </Typography>
-      <Typography sx={styles.text7}>
+        Ponemos el foco enconsolidar la confianza <br />
+        que nuestros clientes nos depositan a través de <br />
+        un compromiso permanente, procurando dar respuestas a la altura <br />
         de los desafíos y necesidades que sus proyectos demandan.
       </Typography>
     </Box>

@@ -66,7 +66,7 @@ export const Contact = () => {
           Enviar
         </Button>
       </Box>
-      <Divider sx={{ py: "12px" }}>
+      <Divider sx={{ pt: "12px" }}>
         <Typography
           variant="caption"
           fontFamily="Roboto Mono"
@@ -76,12 +76,7 @@ export const Contact = () => {
           Otras formas de contactarnos:
         </Typography>
       </Divider>
-      <Box
-        display="flex"
-        flexDirection={{ xs: "column", md: "row" }}
-        gap="14px"
-        alignSelf="center"
-      >
+      <Box display="flex" flexDirection="column" gap="14px" alignSelf="center">
         {contactMethods.map((method) => (
           <Button
             color="secondary"

@@ -1,40 +1,42 @@
-import { Box, Link, Typography } from "@mui/material";
+import { Box, Typography, IconButton } from "@mui/material";
+import { CodeRounded } from "@mui/icons-material";
 
 export const Footer = () => {
-  const developer = (
-    <Link
-      underline="hover"
-      color="secondary"
-      target="_blank"
-      href="https://ramireznicc.github.io"
-    >
-      Nicolás Ramirez
-    </Link>
-  );
-
   const year = new Date().getFullYear();
 
   return (
     <Box
       sx={{
         display: "flex",
-        flexDirection: { xs: "column", md: "column" },
+        flexDirection: "column",
         alignItems: "center",
-        justifyContent: "space-between",
+        justifyContent: "center",
         width: "100%",
         py: "12px",
-        gap: "12px",
-        background: "none",
-        backgroundColor: "rgba(0,0,0,.1)",
-        borderTop: "solid 1px rgba(255,255,255,0.2)",
+        gap: "4px",
       }}
     >
       <Typography sx={{ opacity: "0.4" }} variant="caption" fontWeight={700}>
-        Taldea S.A.S. © All rights reserved | {year}
+        Taldea S.A.S. © All rights reserved - {year}
       </Typography>
-      <Typography sx={{ opacity: "0.4" }} variant="caption">
-        developed by {developer}
-      </Typography>
+      <Box sx={{ display: "flex", alignItems: "center", gap: "4px" }}>
+        <Typography
+          sx={{ opacity: "0.4" }}
+          variant="caption"
+          fontFamily="Roboto Mono"
+        >
+          develoed by
+        </Typography>
+        <IconButton
+          color="primary"
+          size="small"
+          href="https://ramireznicc.github.io"
+          target="_blank"
+          sx={{ opacity: "0.8" }}
+        >
+          <CodeRounded fontSize="small" />
+        </IconButton>
+      </Box>
     </Box>
   );
 };

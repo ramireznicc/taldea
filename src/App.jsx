@@ -7,6 +7,7 @@ import { CssBaseline, Container } from "@mui/material";
 import { Theme } from "./context/Theme/Theme";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
+import { Home } from "./sections/Home/Home";
 import { Contact } from "./sections/Contact/Contact";
 import { Products } from "./sections/Products/Products";
 import { About } from "./sections/About/About";
@@ -29,7 +30,7 @@ function App() {
         >
           <NavBar />
           <Routes>
-            <Route path="/" />
+            <Route path="/" element={<Home />} />
             <Route path="/productos" element={<Products />} />
             <Route path="/nosotros" element={<About />} />
             <Route path="/contacto" element={<Contact />} />
