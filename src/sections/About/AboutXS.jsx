@@ -1,10 +1,10 @@
-import { Divider, Paper, Typography } from "@mui/material";
+import { Divider, Box, Typography } from "@mui/material";
 
 import { styles } from "./styles";
 
 export const AboutXS = () => {
   return (
-    <Paper sx={styles.paperXs}>
+    <Box sx={styles.boxXs}>
       <Typography sx={styles.text1}>Somos el valor</Typography>
       <Typography color="primary" sx={styles.text1}>
         del trabajo en equipo.
@@ -52,6 +52,6 @@ export const AboutXS = () => {
         a la altura de los desafíos y necesidades
       </Typography>
       <Typography sx={styles.text3}>que sus proyectos demandan.</Typography>
-    </Paper>
+    </Box>
   );
 };
