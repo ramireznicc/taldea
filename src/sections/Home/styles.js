@@ -4,10 +4,11 @@ export const styles = {
     my: "44px",
     display: "flex",
     flexDirection: "column",
+    alignItems: "center",
     gap: "22px",
-    overflowX: "hidden",
   },
   header: {
+    my: "44px",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-evenly",

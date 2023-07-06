@@ -1,4 +1,10 @@
 export const styles = {
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+  },
   boxXs: {
     width: "360px",
     backgroundColor: "rgba(255, 255, 255, 0.05)",

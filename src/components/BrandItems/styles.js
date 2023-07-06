@@ -1,16 +1,11 @@
 export const styles = {
   box: {
+    width: "100%",
     display: "flex",
     flexDirection: { xs: "column", md: "row" },
     alignItems: "center",
-    justifyContent: "center",
-    gap: "18px",
+    justifyContent: "space-between",
+    gap: { xs: "32px", md: "22px" },
   },
-  card: {
-    backgroundColor: "rgba(0, 0, 0, 0.1)",
-    borderRadius: "12px",
-    py: "8px",
-    px: "16px",
-  },
-  image: { height: { xs: "48px", md: "60px" } },
+  image: { height: { xs: "36px", md: "48px" } },
 };

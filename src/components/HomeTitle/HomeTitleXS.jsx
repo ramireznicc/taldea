@@ -5,54 +5,34 @@ import { styles } from "./styles";
 export const HomeTitleXS = () => {
   return (
     <Box sx={styles.boxXS}>
-      <Typography
-        fontWeight="bold"
-        variant="h4"
-        color="secondary"
-        textAlign="center"
-      >
+      <Typography fontWeight="bold" variant="h4" color="secondary">
         Importadores
       </Typography>
-      <Typography
-        fontWeight="bold"
-        variant="h4"
-        color="primary"
-        textAlign="center"
-      >
+      <Typography fontWeight="bold" variant="h4" color="secondary">
         y distribuidores
       </Typography>
-      <Typography
-        fontWeight="bold"
-        variant="h4"
-        color="secondary"
-        textAlign="center"
-      >
-        de equipos e insumos
-      </Typography>
-      <Typography
-        fontWeight="bold"
-        variant="h4"
-        color="primary"
-        textAlign="center"
-      >
+      <Box sx={styles.box}>
+        <Typography fontWeight="bold" variant="h4" color="secondary">
+          de
+        </Typography>
+        <Typography fontWeight="bold" variant="h4" color="primary">
+          equipos e insumos
+        </Typography>
+      </Box>
+      <Typography fontWeight="bold" variant="h4" color="secondary">
         para la
       </Typography>
-      <Typography
-        fontWeight="bold"
-        variant="h4"
-        color="secondary"
-        textAlign="center"
-      >
+      <Typography fontWeight="bold" variant="h4" color="primary">
         comunicación visual
       </Typography>
-      <Typography
-        fontWeight="bold"
-        variant="h4"
-        color="primary"
-        textAlign="center"
-      >
-        y la industria textil.
-      </Typography>
+      <Box sx={styles.box}>
+        <Typography fontWeight="bold" variant="h4" color="secondary">
+          y la
+        </Typography>
+        <Typography fontWeight="bold" variant="h4" color="primary">
+          industria textil
+        </Typography>
+      </Box>
     </Box>
   );
 };

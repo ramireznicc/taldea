@@ -8,6 +8,8 @@ import {
 } from "@mui/material";
 import { Send, WhatsApp, Instagram, Email } from "@mui/icons-material";
 
+import { styles } from "./styles";
+
 const contactMethods = [
   {
     name: "WhatsApp",
@@ -28,10 +30,7 @@ const contactMethods = [
 
 export const Contact = () => {
   return (
-    <Container
-      maxWidth="md"
-      sx={{ display: "flex", flexDirection: "column", gap: "16px", my: "32px" }}
-    >
+    <Container maxWidth="md" sx={styles.container}>
       <Box>
         <Typography
           variant="h5"
@@ -42,13 +41,7 @@ export const Contact = () => {
           Hacé tu consulta:
         </Typography>
       </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: { xs: "column", md: "row" },
-          gap: "12px",
-        }}
-      >
+      <Box sx={styles.formContainer}>
         <TextField fullWidth label="Nombre o Empresa" />
         <TextField fullWidth label="Teléfono" />
         <TextField fullWidth label="Email" />
@@ -66,21 +59,21 @@ export const Contact = () => {
           Enviar
         </Button>
       </Box>
-      <Divider sx={{ pt: "12px" }}>
+      <Divider sx={styles.divider}>
         <Typography
           variant="caption"
           fontFamily="Roboto Mono"
           color="primary"
           textTransform="uppercase"
         >
-          Otras formas de contactarnos:
+          Otras formas de contactarnos
         </Typography>
       </Divider>
-      <Box display="flex" flexDirection="column" gap="14px" alignSelf="center">
+      <Box sx={styles.methodsContainer}>
         {contactMethods.map((method) => (
           <Button
             color="secondary"
-            fullWidth="false"
+            fullWidth={false}
             startIcon={method.icon}
             href={method.link}
             target="_blank"

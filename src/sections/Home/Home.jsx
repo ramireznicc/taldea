@@ -14,14 +14,14 @@ export const Home = () => {
         <HomeTitleMD />
         <HomeDetails />
       </Container>
-      <Divider>
+      <Divider flexItem>
         <Typography
           variant="caption"
           fontFamily="Roboto Mono"
           color="primary"
           textTransform="uppercase"
         >
-          Nuestras marcas:
+          Partners
         </Typography>
       </Divider>
       <BrandItems />

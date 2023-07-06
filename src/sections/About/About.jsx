@@ -1,12 +1,14 @@
 // About section
-import { Typography, Divider } from "@mui/material";
+import { Typography, Divider, Container } from "@mui/material";
 import { AboutMD } from "./AboutMD";
 import { AboutXS } from "./AboutXS";
 import { Team } from "./Team";
 
+import { styles } from "./styles";
+
 export const About = () => {
   return (
-    <>
+    <Container sx={styles.container}>
       <AboutXS />
       <AboutMD />
       <Divider sx={{ my: "12px" }} flexItem>
@@ -20,6 +22,6 @@ export const About = () => {
         </Typography>
       </Divider>
       <Team />
-    </>
+    </Container>
   );
 };

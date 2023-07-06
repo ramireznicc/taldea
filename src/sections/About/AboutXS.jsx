@@ -7,7 +7,7 @@ export const AboutXS = () => {
     <Box sx={styles.boxXs}>
       <Typography sx={styles.text1}>Somos el valor</Typography>
       <Typography color="primary" sx={styles.text1}>
-        del trabajo en equipo.
+        del trabajo en equipo
       </Typography>
       <Divider light sx={{ my: "8px" }} />
       <Typography sx={styles.text2}>

@@ -16,14 +16,14 @@ import { ListAlt, Groups, Mail, MenuOpen } from "@mui/icons-material/";
 export const NavBar = () => {
   const itemsMenu = [
     {
-      name: "Productos & Servicios",
-      path: "/productos",
-      icon: <ListAlt color="third" fontSize="small" />,
-    },
-    {
       name: "Nosotros",
       path: "/nosotros",
       icon: <Groups color="third" fontSize="small" />,
+    },
+    {
+      name: "Productos & Servicios",
+      path: "/productos",
+      icon: <ListAlt color="third" fontSize="small" />,
     },
     {
       name: "Contacto",
@@ -141,6 +141,7 @@ export const NavBar = () => {
               {itemsMenu.map((item) => (
                 <MenuItem key={item} onClick={handleCloseNavMenu}>
                   <Button
+                    fullWidth
                     color="secondary"
                     component={NavLink}
                     to={item.path}
