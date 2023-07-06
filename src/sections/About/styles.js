@@ -49,7 +49,7 @@ export const styles = {
   text1: {
     fontSize: {
       xs: "1.5rem",
-      md: "2rem",
+      md: "1.6rem",
     },
     color: "primary.main",
     fontWeight: "bold",
@@ -58,7 +58,7 @@ export const styles = {
   text2: {
     fontSize: {
       xs: "1.2rem",
-      md: "1.5rem",
+      md: "1.2rem",
     },
     textAlign: "end",
     color: "secondary.main",
@@ -67,7 +67,7 @@ export const styles = {
   text3: {
     fontSize: {
       xs: "1.2rem",
-      md: "1.5rem",
+      md: "1.2rem",
     },
     color: "primary.main",
     opacity: "0.9",

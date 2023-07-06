@@ -15,21 +15,21 @@ export const HomeTitleXS = () => {
         <Typography fontWeight="bold" variant="h4" color="secondary">
           de
         </Typography>
-        <Typography fontWeight="bold" variant="h4" color="primary">
+        <Typography fontWeight="bold" variant="h4" color="third.main">
           equipos e insumos
         </Typography>
       </Box>
       <Typography fontWeight="bold" variant="h4" color="secondary">
         para la
       </Typography>
-      <Typography fontWeight="bold" variant="h4" color="primary">
+      <Typography fontWeight="bold" variant="h4" color="third.main">
         comunicación visual
       </Typography>
       <Box sx={styles.box}>
         <Typography fontWeight="bold" variant="h4" color="secondary">
           y la
         </Typography>
-        <Typography fontWeight="bold" variant="h4" color="primary">
+        <Typography fontWeight="bold" variant="h4" color="third.main">
           industria textil
         </Typography>
       </Box>

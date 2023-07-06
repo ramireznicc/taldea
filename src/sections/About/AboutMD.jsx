@@ -5,12 +5,12 @@ export const AboutMD = () => {
   return (
     <Box sx={styles.boxMd}>
       <Typography sx={styles.text1}>
-        Somos el valor del trabajo en equipo.
+        Somos el valor del trabajo en equipo
       </Typography>
       <Divider light sx={{ my: "18px" }} />
       <Typography sx={styles.text2}>
         Una joven empresa formada por un grupo de perfil profesional, <br />
-        con vasta experiencia en laimportación y distribución <br />
+        con vasta experiencia en la importación y distribución <br />
         de equipamiento tecnológico, materiales y consumibles para la <br />
         <b>Comunicación Visual y la Industrial Textil.</b>
       </Typography>

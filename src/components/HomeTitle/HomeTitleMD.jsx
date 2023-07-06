@@ -11,7 +11,7 @@ export const HomeTitleMD = () => {
         </Typography>
       </Box>
       <Box>
-        <Typography fontWeight="bold" variant="h4" color="primary">
+        <Typography fontWeight="bold" variant="h4" color="third.main">
           equipos e insumos
         </Typography>
       </Box>
@@ -19,7 +19,7 @@ export const HomeTitleMD = () => {
         <Typography fontWeight="bold" variant="h4" color="secondary">
           para la
         </Typography>
-        <Typography fontWeight="bold" variant="h4" color="primary">
+        <Typography fontWeight="bold" variant="h4" color="third.main">
           comunicación visual
         </Typography>
       </Box>
@@ -27,7 +27,7 @@ export const HomeTitleMD = () => {
         <Typography fontWeight="bold" variant="h4" color="secondary">
           y la
         </Typography>
-        <Typography fontWeight="bold" variant="h4" color="primary">
+        <Typography fontWeight="bold" variant="h4" color="third.main">
           industria textil
         </Typography>
       </Box>
