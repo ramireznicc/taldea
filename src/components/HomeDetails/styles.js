@@ -9,7 +9,7 @@ export const styles = {
     p: "18px",
     borderRadius: "12px",
     my: "22px",
-    width: "100%",
+    width: { xs: "auto", md: "100%" },
   },
   item: {
     display: "flex",
