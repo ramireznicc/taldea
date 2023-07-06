@@ -6,29 +6,18 @@ import {
   Button,
   Divider,
 } from "@mui/material";
-import {
-  Send,
-  WhatsApp,
-  Instagram,
-  Email,
-  Facebook,
-} from "@mui/icons-material";
+import { Send, WhatsApp, Instagram, Email } from "@mui/icons-material";
 
 const contactMethods = [
   {
     name: "WhatsApp",
     icon: <WhatsApp fontSize="small" color="primary" />,
-    link: "https://api.whatsapp.com/send?phone=5493416128804",
+    link: "https://api.whatsapp.com/send?phone=5491160441319",
   },
   {
     name: "Instagram",
     icon: <Instagram fontSize="small" color="primary" />,
     link: "https://www.instagram.com/taldea.sas/",
-  },
-  {
-    name: "Facebook",
-    icon: <Facebook fontSize="small" color="primary" />,
-    link: "",
   },
   {
     name: "Email",

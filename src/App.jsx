@@ -9,6 +9,7 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
 import { Contact } from "./sections/Contact/Contact";
 import { Products } from "./sections/Products/Products";
+import { About } from "./sections/About/About";
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
           <Routes>
             <Route path="/" />
             <Route path="/productos" element={<Products />} />
-            <Route path="/nosotros" />
+            <Route path="/nosotros" element={<About />} />
             <Route path="/contacto" element={<Contact />} />
           </Routes>
           <Footer />
