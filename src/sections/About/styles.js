@@ -1,10 +1,4 @@
 export const styles = {
-  box: {
-    width: { xs: "350px", md: "860px" },
-    mb: "36px",
-    display: "flex",
-    flexDirection: "column",
-  },
   boxXs: {
     width: "360px",
     backgroundColor: "rgba(255, 255, 255, 0.05)",
@@ -25,28 +19,26 @@ export const styles = {
     display: { xs: "none", md: "flex" },
     flexDirection: "column",
   },
-  boxCompany: {
+  containerCompany: {
+    mt: "12px",
+    mb: "32px",
     display: "flex",
-    flexDirection: "column",
+    flexDirection: { xs: "column", md: "row" },
     justifyContent: "center",
+    alignItems: "center",
+    gap: "44px",
   },
   boxTeam: {
     display: "flex",
-    flexDirection: { xs: "column", md: "row" },
-    my: "12px",
-    mx: "12px",
-    gap: { xs: "12px", md: "32px" },
-    alignItems: "flex-end",
-    justifyContent: "flex-end",
-    pr: "12px",
+    flexDirection: "column",
+    gap: "20px",
+    alignItems: "center",
+    justifyContent: "center",
   },
   boxMember: {
     display: "flex",
-    gap: "6px",
-    borderRadius: "12px 0px 0px 12px",
-    backgroundColor: "rgba(255, 255, 255, 0.05)",
-    px: "8px",
-    py: "2px",
+    flexDirection: "column",
+    alignItems: "center",
   },
   text1: {
     fontSize: {
