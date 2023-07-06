@@ -3,10 +3,7 @@ import { Box, Divider, Typography } from "@mui/material";
 import { styles } from "./styles";
 
 const membersOne = [
-  {
-    name: "Hernan Ramirez",
-    title: "CEO",
-  },
+  { name: "Hernan Ramirez", title: "CEO" },
   { name: "Eugenio Lafon", title: "CTO" },
 ];
 

@@ -18,17 +18,17 @@ export const NavBar = () => {
     {
       name: "Productos & Servicios",
       path: "/productos",
-      icon: <ListAlt color="primary" fontSize="small" />,
+      icon: <ListAlt color="third" fontSize="small" />,
     },
     {
       name: "Nosotros",
       path: "/nosotros",
-      icon: <Groups color="primary" fontSize="small" />,
+      icon: <Groups color="third" fontSize="small" />,
     },
     {
       name: "Contacto",
       path: "/contacto",
-      icon: <Mail color="primary" fontSize="small" />,
+      icon: <Mail color="third" fontSize="small" />,
     },
   ];
 
