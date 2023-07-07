@@ -9,7 +9,7 @@ export const Logo = () => {
         width: "140px",
         height: "auto",
         pt: "4px",
-        pl: "4px",
+        pl: "8px",
       }}
     ></Box>
   );
