@@ -1,13 +1,7 @@
-import {
-  Container,
-  Typography,
-  Box,
-  TextField,
-  Button,
-  Divider,
-} from "@mui/material";
-import { Send, WhatsApp, Instagram, Email } from "@mui/icons-material";
+import { Container, Typography, Box, Button, Divider } from "@mui/material";
+import { WhatsApp, Instagram, Email } from "@mui/icons-material";
 
+import { ContactForm } from "../../components/ContactForm/ContactForm";
 import { styles } from "./styles";
 
 const contactMethods = [
@@ -41,24 +35,7 @@ export const Contact = () => {
           Hacé tu consulta:
         </Typography>
       </Box>
-      <Box sx={styles.formContainer}>
-        <TextField fullWidth label="Nombre o Empresa" />
-        <TextField fullWidth label="Teléfono" />
-        <TextField fullWidth label="Email" />
-      </Box>
-      <Box>
-        <TextField fullWidth multiline rows={6} label="Mensaje" />
-      </Box>
-      <Box display="flex" justifyContent="flex-end">
-        <Button
-          variant="outlined"
-          color="secondary"
-          disableElevation
-          startIcon={<Send color="primary" />}
-        >
-          Enviar
-        </Button>
-      </Box>
+      <ContactForm />
       <Divider sx={styles.divider}>
         <Typography
           variant="caption"

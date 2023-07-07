@@ -5,11 +5,6 @@ export const styles = {
     gap: "16px",
     my: "32px",
   },
-  formContainer: {
-    display: "flex",
-    flexDirection: { xs: "column", md: "row" },
-    gap: "12px",
-  },
   divider: {
     mt: "20px",
   },

@@ -13,6 +13,8 @@ import { NavLink } from "react-router-dom";
 // *ICONS IMPORTS
 import { ListAlt, Groups, Mail, MenuOpen } from "@mui/icons-material/";
 
+import { styles } from "./styles";
+
 export const NavBar = () => {
   const itemsMenu = [
     {
@@ -43,50 +45,20 @@ export const NavBar = () => {
   };
 
   return (
-    <Container
-      maxWidth={false}
-      disableGutters
-      sx={{
-        backgroundColor: "rgba(255, 255, 255, 0.01)",
-        borderBottom: "solid 1px rgba(255,255,255,0.05)",
-      }}
-    >
+    <Container maxWidth={false} disableGutters sx={styles.navbar}>
       <Toolbar disableGutters>
-        <Box
-          sx={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: { xs: "space-between", md: "space-evenly" },
-            width: "100%",
-            px: { xs: "16px", md: "0px" },
-          }}
-        >
-          <Box
-            width="20%"
-            sx={{
-              display: { xs: "none", md: "flex" },
-            }}
-          >
+        <Box sx={styles.container1}>
+          <Box width="20%" sx={styles.logoMD}>
             <NavLink to="/">
               <Logo />
             </NavLink>
           </Box>
-          <Box
-            sx={{
-              display: { xs: "flex", md: "none" },
-            }}
-          >
+          <Box sx={styles.logoXS}>
             <NavLink to="/">
               <Logo />
             </NavLink>
           </Box>
-          <Box
-            sx={{
-              widht: "60%",
-              display: { xs: "none", md: "flex" },
-              gap: "24px",
-            }}
-          >
+          <Box sx={styles.menuMD}>
             {itemsMenu.map((item) => (
               <Button
                 startIcon={item.icon}
@@ -99,17 +71,8 @@ export const NavBar = () => {
               </Button>
             ))}
           </Box>
-          <Box
-            width="20%"
-            sx={{
-              display: { xs: "none", md: "flex" },
-            }}
-          ></Box>
-          <Box
-            sx={{
-              display: { xs: "flex", md: "none" },
-            }}
-          >
+          <Box width="20%" sx={styles.containerMD}></Box>
+          <Box sx={styles.menuXS}>
             <IconButton
               size="small"
               aria-label="account of current user"
@@ -121,6 +84,7 @@ export const NavBar = () => {
               <MenuOpen />
             </IconButton>
             <Menu
+              color="secondary"
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
@@ -134,9 +98,7 @@ export const NavBar = () => {
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: "block", md: "none" },
-              }}
+              sx={styles.menuDropdownXS}
             >
               {itemsMenu.map((item) => (
                 <MenuItem key={item} onClick={handleCloseNavMenu}>
