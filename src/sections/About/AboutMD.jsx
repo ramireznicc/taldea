@@ -7,24 +7,51 @@ export const AboutMD = () => {
       <Typography sx={styles.text1}>
         Somos el valor del trabajo en equipo
       </Typography>
-      <Divider light sx={{ my: "18px" }} />
+      <Divider light sx={{ my: "8px" }} />
       <Typography sx={styles.text2}>
         Una joven empresa formada por un grupo de perfil profesional, <br />
         con vasta experiencia en la importación y distribución <br />
-        de equipamiento tecnológico, materiales y consumibles para la <br />
-        <b>Comunicación Visual y la Industrial Textil.</b>
+        de equipamiento tecnológico, materiales y consumibles para la
       </Typography>
-      <Divider light sx={{ my: "18px" }} />
-      <Typography sx={styles.text3}>
-        Representantes de marcas líderes a nivel mundial, <br />
-        brindamos un asesoramiento <b>integral y personalizado,</b> <br />
-        junto a un servicio <b>ágil y eficiente.</b>
+      <Box sx={styles.box}>
+        <Typography sx={styles.text3}>comunicación visual</Typography>{" "}
+        <Typography sx={styles.text2}>y la </Typography>
+        <Typography sx={styles.text3}>industrial textil.</Typography>
+      </Box>
+      <Divider light sx={{ my: "8px" }} />
+      <Typography sx={styles.text4}>
+        Representantes de marcas líderes a nivel mundial,
       </Typography>
-      <Divider light sx={{ my: "18px" }} />
+      <Box sx={styles.box2}>
+        <Typography sx={styles.text4}>brindamos un asesoramiento</Typography>
+        <Typography sx={styles.text3}>integral</Typography>
+        <Typography sx={styles.text4}>y</Typography>
+        <Typography sx={styles.text3}>personalizado,</Typography>
+      </Box>
+      <Box sx={styles.box2}>
+        <Typography sx={styles.text4}>junto a un servicio</Typography>
+        <Typography sx={styles.text3}>ágil</Typography>
+        <Typography sx={styles.text4}>y</Typography>
+        <Typography sx={styles.text3}>eficiente.</Typography>
+      </Box>
+      <Divider light sx={{ my: "8px" }} />
+      <Box sx={styles.box}>
+        <Typography sx={styles.text2}>
+          Ponemos el foco en consolidar la
+        </Typography>
+        <Typography sx={styles.text3}>confianza</Typography>
+      </Box>
       <Typography sx={styles.text2}>
-        Ponemos el foco enconsolidar la confianza <br />
-        que nuestros clientes nos depositan a través de <br />
-        un compromiso permanente, procurando dar respuestas a la altura <br />
+        que nuestros clientes nos depositan a través de
+      </Typography>
+      <Box sx={styles.box}>
+        <Typography sx={styles.text2}>un</Typography>
+        <Typography sx={styles.text3}>compromiso</Typography>
+        <Typography sx={styles.text2}>
+          permanente, procurando dar respuestas a la altura
+        </Typography>
+      </Box>
+      <Typography sx={styles.text2}>
         de los desafíos y necesidades que sus proyectos demandan.
       </Typography>
     </Box>

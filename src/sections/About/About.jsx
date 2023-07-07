@@ -18,7 +18,7 @@ export const About = () => {
           color="primary"
           textTransform="uppercase"
         >
-          Nuestro equipo:
+          Nuestro equipo
         </Typography>
       </Divider>
       <Team />
