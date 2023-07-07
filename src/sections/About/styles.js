@@ -62,7 +62,7 @@ export const styles = {
   },
   text1: {
     fontSize: {
-      xs: "1.5rem",
+      xs: "1.3rem",
       md: "1.6rem",
     },
     color: "primary.main",
@@ -71,16 +71,16 @@ export const styles = {
   },
   text2: {
     fontSize: {
-      xs: "1.2rem",
+      xs: "1.05rem",
       md: "1.2rem",
     },
     textAlign: "end",
-    color: "secondary.main",
+    color: "text",
     opacity: "0.9",
   },
   text3: {
     fontSize: {
-      xs: "1.2rem",
+      xs: "1.05rem",
       md: "1.2rem",
     },
     color: "third.main",
@@ -88,10 +88,19 @@ export const styles = {
   },
   text4: {
     fontSize: {
-      xs: "1.2rem",
+      xs: "1.05rem",
       md: "1.2rem",
     },
-    color: "secondary.main",
+    color: "text",
+    opacity: "0.9",
+  },
+  text5: {
+    fontSize: {
+      xs: "1.05rem",
+      md: "1.2rem",
+    },
+    textAlign: "end",
+    color: "third.main",
     opacity: "0.9",
   },
 };

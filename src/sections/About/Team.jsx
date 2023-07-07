@@ -29,7 +29,11 @@ export const Team = () => {
               {member.title}
             </Typography>
             <Divider flexItem />
-            <Typography variant="body" fontFamily="Roboto Mono">
+            <Typography
+              variant="body"
+              color="secondary"
+              fontFamily="Roboto Mono"
+            >
               {member.name}
             </Typography>
           </Box>
@@ -42,7 +46,11 @@ export const Team = () => {
               {member.title}
             </Typography>
             <Divider flexItem />
-            <Typography variant="body" fontFamily="Roboto Mono">
+            <Typography
+              variant="body"
+              color="secondary"
+              fontFamily="Roboto Mono"
+            >
               {member.name}
             </Typography>
           </Box>
@@ -55,7 +63,11 @@ export const Team = () => {
               {member.title}
             </Typography>
             <Divider flexItem />
-            <Typography variant="body" fontFamily="Roboto Mono">
+            <Typography
+              variant="body"
+              color="secondary"
+              fontFamily="Roboto Mono"
+            >
               {member.name}
             </Typography>
           </Box>

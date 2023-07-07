@@ -33,11 +33,7 @@ export const HomeDetails = () => {
       {details.map((detail) => (
         <Box sx={styles.item}>
           {detail.icon}
-          <Typography
-            color="secondary"
-            variant="body1"
-            fontFamily="Roboto Mono"
-          >
+          <Typography color="text" variant="body1" fontFamily="Roboto Mono">
             {detail.title}
           </Typography>
         </Box>

@@ -47,8 +47,8 @@ export const NavBar = () => {
       maxWidth={false}
       disableGutters
       sx={{
-        backgroundColor: "rgba(0, 0, 0, .1)",
-        borderBottom: "solid 1px rgba(255,255,255,0.2)",
+        backgroundColor: "rgba(255, 255, 255, 0.01)",
+        borderBottom: "solid 1px rgba(255,255,255,0.05)",
       }}
     >
       <Toolbar disableGutters>
