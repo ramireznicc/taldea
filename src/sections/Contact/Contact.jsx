@@ -1,12 +1,8 @@
-import {
-  Container,
-  Typography,
-  Box,
-  TextField,
-  Button,
-  Divider,
-} from "@mui/material";
-import { Send, WhatsApp, Instagram, Email } from "@mui/icons-material";
+import { Container, Typography, Box, Button, Divider } from "@mui/material";
+import { WhatsApp, Instagram, Email } from "@mui/icons-material";
+
+import { ContactForm } from "../../components/ContactForm/ContactForm";
+import { styles } from "./styles";
 
 const contactMethods = [
   {
@@ -28,10 +24,7 @@ const contactMethods = [
 
 export const Contact = () => {
   return (
-    <Container
-      maxWidth="md"
-      sx={{ display: "flex", flexDirection: "column", gap: "16px", my: "32px" }}
-    >
+    <Container maxWidth="md" sx={styles.container}>
       <Box>
         <Typography
           variant="h5"
@@ -42,45 +35,22 @@ export const Contact = () => {
           Hacé tu consulta:
         </Typography>
       </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: { xs: "column", md: "row" },
-          gap: "12px",
-        }}
-      >
-        <TextField fullWidth label="Nombre o Empresa" />
-        <TextField fullWidth label="Teléfono" />
-        <TextField fullWidth label="Email" />
-      </Box>
-      <Box>
-        <TextField fullWidth multiline rows={6} label="Mensaje" />
-      </Box>
-      <Box display="flex" justifyContent="flex-end">
-        <Button
-          variant="outlined"
-          color="secondary"
-          disableElevation
-          startIcon={<Send color="primary" />}
-        >
-          Enviar
-        </Button>
-      </Box>
-      <Divider sx={{ pt: "12px" }}>
+      <ContactForm />
+      <Divider sx={styles.divider}>
         <Typography
           variant="caption"
           fontFamily="Roboto Mono"
           color="primary"
           textTransform="uppercase"
         >
-          Otras formas de contactarnos:
+          Otras formas de contactarnos
         </Typography>
       </Divider>
-      <Box display="flex" flexDirection="column" gap="14px" alignSelf="center">
+      <Box sx={styles.methodsContainer}>
         {contactMethods.map((method) => (
           <Button
             color="secondary"
-            fullWidth="false"
+            fullWidth={false}
             startIcon={method.icon}
             href={method.link}
             target="_blank"

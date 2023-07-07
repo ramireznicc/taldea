@@ -4,12 +4,12 @@ export const Logo = () => {
   return (
     <Box
       component="img"
-      src="../../images/taldea.svg"
+      src="../../images/taldea-logo.png"
       sx={{
-        width: "160px",
+        width: "140px",
         height: "auto",
-        pt: "8px",
-        pb: "4px",
+        pt: "4px",
+        pl: "8px",
       }}
     ></Box>
   );

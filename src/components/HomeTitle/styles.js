@@ -11,4 +11,10 @@ export const styles = {
     alignItems: "flex-end",
     mb: "22px",
   },
+  box: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: ".5rem",
+  },
 };

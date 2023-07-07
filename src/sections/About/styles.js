@@ -1,14 +1,27 @@
 export const styles = {
-  box: {
-    width: { xs: "350px", md: "860px" },
-    mb: "36px",
+  container: {
     display: "flex",
     flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  box: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-end",
+    gap: ".2rem",
+  },
+  box2: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
+    gap: ".2rem",
   },
   boxXs: {
     width: "360px",
-    backgroundColor: "rgba(255, 255, 255, 0.05)",
     borderRadius: "12px",
+    backgroundColor: "rgba(255, 255, 255, 0.01)",
+    border: "1px solid rgba(255, 255, 255, 0.05)",
     my: "32px",
     px: "20px",
     py: "12px",
@@ -17,7 +30,8 @@ export const styles = {
   },
   boxMd: {
     width: "820px",
-    backgroundColor: "rgba(255, 255, 255, 0.02)",
+    backgroundColor: "rgba(255, 255, 255, 0.01)",
+    border: "1px solid rgba(255, 255, 255, 0.05)",
     borderRadius: "12px",
     my: "32px",
     px: "44px",
@@ -25,33 +39,31 @@ export const styles = {
     display: { xs: "none", md: "flex" },
     flexDirection: "column",
   },
-  boxCompany: {
+  containerCompany: {
+    mt: "12px",
+    mb: "32px",
     display: "flex",
-    flexDirection: "column",
+    flexDirection: { xs: "column", md: "row" },
     justifyContent: "center",
+    alignItems: { xs: "center", md: "flex-start" },
+    gap: { xs: "22px", md: "62px" },
   },
   boxTeam: {
     display: "flex",
-    flexDirection: { xs: "column", md: "row" },
-    my: "12px",
-    mx: "12px",
-    gap: { xs: "12px", md: "32px" },
-    alignItems: "flex-end",
-    justifyContent: "flex-end",
-    pr: "12px",
+    flexDirection: "column",
+    gap: { xs: "18px", md: "32px" },
+    justifyContent: "center",
+    alignItems: "center",
   },
   boxMember: {
     display: "flex",
-    gap: "6px",
-    borderRadius: "12px 0px 0px 12px",
-    backgroundColor: "rgba(255, 255, 255, 0.05)",
-    px: "8px",
-    py: "2px",
+    flexDirection: "column",
+    alignItems: "center",
   },
   text1: {
     fontSize: {
-      xs: "1.5rem",
-      md: "2rem",
+      xs: "1.3rem",
+      md: "1.6rem",
     },
     color: "primary.main",
     fontWeight: "bold",
@@ -59,19 +71,36 @@ export const styles = {
   },
   text2: {
     fontSize: {
-      xs: "1.2rem",
-      md: "1.5rem",
+      xs: "1.05rem",
+      md: "1.2rem",
     },
     textAlign: "end",
-    color: "secondary.main",
+    color: "text",
     opacity: "0.9",
   },
   text3: {
     fontSize: {
-      xs: "1.2rem",
-      md: "1.5rem",
+      xs: "1.05rem",
+      md: "1.2rem",
     },
-    color: "primary.main",
+    color: "third.main",
+    opacity: "0.9",
+  },
+  text4: {
+    fontSize: {
+      xs: "1.05rem",
+      md: "1.2rem",
+    },
+    color: "text",
+    opacity: "0.9",
+  },
+  text5: {
+    fontSize: {
+      xs: "1.05rem",
+      md: "1.2rem",
+    },
+    textAlign: "end",
+    color: "third.main",
     opacity: "0.9",
   },
 };
