@@ -1,5 +1,10 @@
 import { Container, Typography, Box, Button, Divider } from "@mui/material";
-import { WhatsApp, Instagram, Email } from "@mui/icons-material";
+import {
+  WhatsApp,
+  Instagram,
+  EmailRounded,
+  FacebookRounded,
+} from "@mui/icons-material";
 
 import { ContactForm } from "../../components/ContactForm/ContactForm";
 import { styles } from "./styles";
@@ -11,30 +16,25 @@ const contactMethods = [
     link: "https://api.whatsapp.com/send?phone=5491160441319",
   },
   {
+    name: "Facebook",
+    icon: <FacebookRounded fontSize="small" color="primary" />,
+    link: "https://www.facebook.com/TaldeaSAS",
+  },
+  {
     name: "Instagram",
     icon: <Instagram fontSize="small" color="primary" />,
     link: "https://www.instagram.com/taldea.sas/",
   },
   {
     name: "Email",
-    icon: <Email fontSize="small" color="primary" />,
+    icon: <EmailRounded fontSize="small" color="primary" />,
     link: "mailto:info@taldea.com.ar",
   },
 ];
 
-export const Contact = () => {
+const Contact = () => {
   return (
-    <Container maxWidth="md" sx={styles.container}>
-      <Box>
-        <Typography
-          variant="h5"
-          fontWeight="700"
-          color="primary"
-          textTransform="uppercase"
-        >
-          Hacé tu consulta:
-        </Typography>
-      </Box>
+    <Container sx={styles.container}>
       <ContactForm />
       <Divider sx={styles.divider}>
         <Typography
@@ -63,3 +63,5 @@ export const Contact = () => {
     </Container>
   );
 };
+
+export default Contact;

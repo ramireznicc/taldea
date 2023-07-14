@@ -1,9 +1,8 @@
 html {
-  overflow-y: scroll;
   scrollbar-color: rgba(255, 255, 255, 0.1) #282828;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   height: 12px;
   width: 12px;
   background: #282828;
@@ -17,4 +16,4 @@ html {
 
 ::-webkit-scrollbar-corner {
   background: #282828;
-}
+} */

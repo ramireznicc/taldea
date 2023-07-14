@@ -13,7 +13,6 @@ export const Footer = () => {
         justifyContent: "center",
         width: "100%",
         py: "12px",
-        gap: "4px",
       }}
     >
       <Typography sx={{ opacity: "0.4" }} variant="caption" fontWeight={700}>
@@ -25,12 +24,12 @@ export const Footer = () => {
           variant="caption"
           fontFamily="Roboto Mono"
         >
-          develoed by
+          developed by
         </Typography>
         <IconButton
           color="primary"
           size="small"
-          href="https://ramireznicc.github.io"
+          href="https://ramireznicc.com"
           target="_blank"
           sx={{ opacity: "0.8" }}
         >

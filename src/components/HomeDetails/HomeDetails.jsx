@@ -11,19 +11,19 @@ import {
 export const HomeDetails = () => {
   const details = [
     {
-      icon: <Handshake color="third" fontSize="large" />,
+      icon: <Handshake color="third" />,
       title: "Atención personalizada",
     },
     {
-      icon: <StarBorderRounded color="third" fontSize="large" />,
+      icon: <StarBorderRounded color="third" />,
       title: "Calidad garantizada",
     },
     {
-      icon: <LocalShipping color="third" fontSize="large" />,
+      icon: <LocalShipping color="third" />,
       title: "Envíos a todo el país",
     },
     {
-      icon: <SupportAgent color="third" fontSize="large" />,
+      icon: <SupportAgent color="third" />,
       title: "Servicio post-venta",
     },
   ];
@@ -33,9 +33,7 @@ export const HomeDetails = () => {
       {details.map((detail) => (
         <Box sx={styles.item}>
           {detail.icon}
-          <Typography color="text" variant="body1" fontFamily="Roboto Mono">
-            {detail.title}
-          </Typography>
+          <Typography sx={styles.text}>{detail.title}</Typography>
         </Box>
       ))}
     </Box>

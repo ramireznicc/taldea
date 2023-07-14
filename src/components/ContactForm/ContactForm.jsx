@@ -1,12 +1,20 @@
-import { Box, Button, TextField } from "@mui/material";
+import { Container, Box, Typography, Button, TextField } from "@mui/material";
 import { Send } from "@mui/icons-material";
 
 import { styles } from "./styles";
 
 export const ContactForm = () => {
   return (
-    <>
-      <Box sx={styles.formContainer}>
+    <Container sx={styles.formContainer}>
+      <Typography
+        variant="h6"
+        fontWeight="700"
+        color="primary"
+        textTransform="uppercase"
+      >
+        Hacé tu consulta:
+      </Typography>
+      <Box sx={styles.contactDetails}>
         <TextField fullWidth label="Nombre o Empresa" />
         <TextField fullWidth label="Teléfono" />
         <TextField fullWidth label="Email" />
@@ -24,6 +32,6 @@ export const ContactForm = () => {
           Enviar
         </Button>
       </Box>
-    </>
+    </Container>
   );
 };

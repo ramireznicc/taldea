@@ -6,10 +6,10 @@ import { BrandItems } from "../../components/BrandItems/BrandItems";
 import { styles } from "./styles";
 import { HomeDetails } from "../../components/HomeDetails/HomeDetails";
 
-export const Home = () => {
+const Home = () => {
   return (
     <Container sx={styles.container}>
-      <Container sx={styles.header}>
+      <Container sx={styles.header} disableGutters>
         <HomeTitleXS />
         <HomeTitleMD />
         <HomeDetails />
@@ -21,10 +21,12 @@ export const Home = () => {
           color="primary"
           textTransform="uppercase"
         >
-          Partners
+          Main Partners
         </Typography>
       </Divider>
       <BrandItems />
     </Container>
   );
 };
+
+export default Home;

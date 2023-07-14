@@ -6,10 +6,11 @@ export const Logo = () => {
       component="img"
       src="../../images/taldea-logo.png"
       sx={{
-        width: "140px",
+        width: "166px",
         height: "auto",
         pt: "4px",
         pl: "8px",
+        cursor: "pointer",
       }}
     ></Box>
   );

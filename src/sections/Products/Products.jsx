@@ -2,7 +2,7 @@ import { Container, Divider, Typography } from "@mui/material";
 import { ProductCard } from "../../components/ProductCard/ProductCard";
 import products from "../../data/products.json";
 
-export const Products = () => {
+const Products = () => {
   const categories = products.map((item) => item.category);
   const categoriesUnique = [...new Set(categories)];
 
@@ -41,3 +41,5 @@ export const Products = () => {
     </Container>
   );
 };
+
+export default Products;
