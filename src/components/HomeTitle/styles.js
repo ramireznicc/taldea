@@ -11,7 +11,7 @@ export const styles = {
   },
   textXS: {
     fontWeight: "bold",
-    fontSize: "1.8rem",
+    fontSize: "1.65rem",
   },
   box: {
     display: "flex",
