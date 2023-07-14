@@ -1,13 +1,18 @@
 // About section
+<<<<<<< HEAD
 import { Typography, Divider, Container } from "@mui/material";
+=======
+import { Container } from "@mui/material";
+>>>>>>> develop
 import { AboutMD } from "./AboutMD";
 import { AboutXS } from "./AboutXS";
 import { Team } from "./Team";
 
 import { styles } from "./styles";
 
-export const About = () => {
+const About = () => {
   return (
+<<<<<<< HEAD
     <Container sx={styles.container}>
       <AboutXS />
       <AboutMD />
@@ -21,7 +26,14 @@ export const About = () => {
           Nuestro equipo
         </Typography>
       </Divider>
+=======
+    <Container sx={styles.container} maxWidth>
+      <AboutXS />
+      <AboutMD />
+>>>>>>> develop
       <Team />
     </Container>
   );
 };
+
+export default About;

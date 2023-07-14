@@ -1,11 +1,15 @@
 export const styles = {
   container: {
     flex: 1,
-    my: "44px",
+    my: "5rem",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+<<<<<<< HEAD
     gap: "22px",
+=======
+    gap: { xs: "22px", md: "44px" },
+>>>>>>> develop
   },
   header: {
     my: "44px",
@@ -13,5 +17,6 @@ export const styles = {
     flexDirection: "column",
     justifyContent: "space-evenly",
     alignItems: "center",
+    gap: { xs: "22px", md: "44px" },
   },
 };

@@ -1,4 +1,4 @@
-import { Container, Divider, Typography } from "@mui/material";
+import { Container } from "@mui/material";
 
 import { HomeTitleXS } from "../../components/HomeTitle/HomeTitleXS";
 import { HomeTitleMD } from "../../components/HomeTitle/HomeTitleMD";
@@ -6,14 +6,15 @@ import { BrandItems } from "../../components/BrandItems/BrandItems";
 import { styles } from "./styles";
 import { HomeDetails } from "../../components/HomeDetails/HomeDetails";
 
-export const Home = () => {
+const Home = () => {
   return (
     <Container sx={styles.container}>
-      <Container sx={styles.header}>
+      <Container sx={styles.header} disableGutters>
         <HomeTitleXS />
         <HomeTitleMD />
         <HomeDetails />
       </Container>
+<<<<<<< HEAD
       <Divider flexItem>
         <Typography
           variant="caption"
@@ -24,7 +25,11 @@ export const Home = () => {
           Partners
         </Typography>
       </Divider>
+=======
+>>>>>>> develop
       <BrandItems />
     </Container>
   );
 };
+
+export default Home;

@@ -1,9 +1,17 @@
 export const styles = {
   container: {
+<<<<<<< HEAD
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
+=======
+    flex: 1,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "space-evenly",
+>>>>>>> develop
   },
   box: {
     display: "flex",
@@ -18,13 +26,19 @@ export const styles = {
     gap: ".2rem",
   },
   boxXs: {
+<<<<<<< HEAD
     width: "360px",
     borderRadius: "12px",
     backgroundColor: "rgba(255, 255, 255, 0.01)",
     border: "1px solid rgba(255, 255, 255, 0.05)",
+=======
+    width: "330px",
+    borderRadius: "12px",
+    backgroundColor: "rgba(255, 255, 255, 0.01)",
+    border: "1px solid rgba(255, 255, 255, 0.05)",
+    p: "12px",
+>>>>>>> develop
     my: "32px",
-    px: "20px",
-    py: "12px",
     display: { xs: "flex", md: "none" },
     flexDirection: "column",
   },
@@ -33,32 +47,61 @@ export const styles = {
     backgroundColor: "rgba(255, 255, 255, 0.01)",
     border: "1px solid rgba(255, 255, 255, 0.05)",
     borderRadius: "12px",
-    my: "32px",
-    px: "44px",
-    py: "22px",
+    my: "12px",
+    p: "22px",
     display: { xs: "none", md: "flex" },
     flexDirection: "column",
   },
   containerCompany: {
+<<<<<<< HEAD
     mt: "12px",
     mb: "32px",
+=======
+>>>>>>> develop
     display: "flex",
     flexDirection: { xs: "column", md: "row" },
     justifyContent: "center",
+<<<<<<< HEAD
     alignItems: { xs: "center", md: "flex-start" },
     gap: { xs: "22px", md: "62px" },
+=======
+    alignItems: "center",
+    gap: "22px",
+>>>>>>> develop
   },
   boxTeam: {
+    width: "100%",
     display: "flex",
+<<<<<<< HEAD
     flexDirection: "column",
     gap: { xs: "18px", md: "32px" },
     justifyContent: "center",
     alignItems: "center",
+=======
+    flexDirection: { xs: "column", md: "row" },
+    flexWrap: "wrap",
+    mb: { xs: "32px", md: "0px" },
+    justifyContent: "space-around",
+    alignItems: "center",
+    gap: { xs: "22px", md: "12px" },
+>>>>>>> develop
   },
   boxMember: {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+<<<<<<< HEAD
+=======
+  },
+  memberPosition: {
+    fontSize: ".8rem",
+    color: "primary.main",
+  },
+  memberName: {
+    fontSize: ".8rem",
+    lineHeight: "1rem",
+    fontFamily: "Roboto Mono",
+>>>>>>> develop
   },
   text1: {
     fontSize: {
@@ -67,6 +110,7 @@ export const styles = {
     },
     color: "primary.main",
     fontWeight: "bold",
+    textAlign: "center",
     textTransform: "uppercase",
   },
   text2: {

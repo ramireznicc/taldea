@@ -9,9 +9,17 @@ import {
   Container,
 } from "@mui/material";
 import { Logo } from "../Logo/Logo";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 // *ICONS IMPORTS
-import { ListAlt, Groups, Mail, MenuOpen } from "@mui/icons-material/";
+import {
+  ListAltRounded,
+  GroupsRounded,
+  MailRounded,
+  MenuOpen,
+  LocalOfferRounded,
+} from "@mui/icons-material/";
+
+import { styles } from "./styles";
 
 import { styles } from "./styles";
 
@@ -20,7 +28,17 @@ export const NavBar = () => {
     {
       name: "Nosotros",
       path: "/nosotros",
-      icon: <Groups color="third" fontSize="small" />,
+      icon: <GroupsRounded color="third" fontSize="small" />,
+    },
+    {
+      name: "Productos & Servicios",
+      path: "/productos",
+      icon: <ListAltRounded color="third" fontSize="small" />,
+    },
+    {
+      name: "Promociones",
+      path: "/Promociones",
+      icon: <LocalOfferRounded color="third" fontSize="small" />,
     },
     {
       name: "Productos & Servicios",
@@ -30,7 +48,7 @@ export const NavBar = () => {
     {
       name: "Contacto",
       path: "/contacto",
-      icon: <Mail color="third" fontSize="small" />,
+      icon: <MailRounded color="third" fontSize="small" />,
     },
   ];
 
@@ -45,24 +63,36 @@ export const NavBar = () => {
   };
 
   return (
+<<<<<<< HEAD
     <Container maxWidth={false} disableGutters sx={styles.navbar}>
       <Toolbar disableGutters>
         <Box sx={styles.container1}>
           <Box width="20%" sx={styles.logoMD}>
             <NavLink to="/">
+=======
+    <Container maxWidth disableGutters sx={styles.navbar}>
+      <Toolbar disableGutters>
+        <Box sx={styles.container1}>
+          <Box sx={styles.logoMD}>
+            <Link to="/">
+>>>>>>> develop
               <Logo />
-            </NavLink>
+            </Link>
           </Box>
           <Box sx={styles.logoXS}>
+<<<<<<< HEAD
             <NavLink to="/">
+=======
+            <Link to="/">
+>>>>>>> develop
               <Logo />
-            </NavLink>
+            </Link>
           </Box>
           <Box sx={styles.menuMD}>
             {itemsMenu.map((item) => (
               <Button
                 startIcon={item.icon}
-                LinkComponent={NavLink}
+                LinkComponent={Link}
                 to={item.path}
                 key={item.name}
                 color="secondary"
@@ -71,7 +101,11 @@ export const NavBar = () => {
               </Button>
             ))}
           </Box>
+<<<<<<< HEAD
           <Box width="20%" sx={styles.containerMD}></Box>
+=======
+          <Box sx={styles.containerMD}></Box>
+>>>>>>> develop
           <Box sx={styles.menuXS}>
             <IconButton
               size="small"
@@ -104,8 +138,12 @@ export const NavBar = () => {
                 <MenuItem key={item} onClick={handleCloseNavMenu}>
                   <Button
                     fullWidth
+<<<<<<< HEAD
+=======
+                    size="small"
+>>>>>>> develop
                     color="secondary"
-                    component={NavLink}
+                    component={Link}
                     to={item.path}
                     startIcon={item.icon}
                   >
