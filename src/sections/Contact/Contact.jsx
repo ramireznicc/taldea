@@ -1,14 +1,10 @@
 import { Container, Typography, Box, Button, Divider } from "@mui/material";
-<<<<<<< HEAD
-import { WhatsApp, Instagram, Email } from "@mui/icons-material";
-=======
 import {
   WhatsApp,
   Instagram,
   EmailRounded,
   FacebookRounded,
 } from "@mui/icons-material";
->>>>>>> develop
 
 import { ContactForm } from "../../components/ContactForm/ContactForm";
 import { styles } from "./styles";
@@ -38,21 +34,7 @@ const contactMethods = [
 
 const Contact = () => {
   return (
-<<<<<<< HEAD
-    <Container maxWidth="md" sx={styles.container}>
-      <Box>
-        <Typography
-          variant="h5"
-          fontWeight="700"
-          color="primary"
-          textTransform="uppercase"
-        >
-          Hacé tu consulta:
-        </Typography>
-      </Box>
-=======
     <Container sx={styles.container}>
->>>>>>> develop
       <ContactForm />
       <Divider sx={styles.divider}>
         <Typography

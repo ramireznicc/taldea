@@ -21,8 +21,6 @@ import {
 
 import { styles } from "./styles";
 
-import { styles } from "./styles";
-
 export const NavBar = () => {
   const itemsMenu = [
     {
@@ -43,7 +41,7 @@ export const NavBar = () => {
     {
       name: "Productos & Servicios",
       path: "/productos",
-      icon: <ListAlt color="third" fontSize="small" />,
+      icon: <ListAltRounded color="third" fontSize="small" />,
     },
     {
       name: "Contacto",
@@ -63,28 +61,16 @@ export const NavBar = () => {
   };
 
   return (
-<<<<<<< HEAD
-    <Container maxWidth={false} disableGutters sx={styles.navbar}>
-      <Toolbar disableGutters>
-        <Box sx={styles.container1}>
-          <Box width="20%" sx={styles.logoMD}>
-            <NavLink to="/">
-=======
     <Container maxWidth disableGutters sx={styles.navbar}>
       <Toolbar disableGutters>
         <Box sx={styles.container1}>
           <Box sx={styles.logoMD}>
             <Link to="/">
->>>>>>> develop
               <Logo />
             </Link>
           </Box>
           <Box sx={styles.logoXS}>
-<<<<<<< HEAD
-            <NavLink to="/">
-=======
             <Link to="/">
->>>>>>> develop
               <Logo />
             </Link>
           </Box>
@@ -101,11 +87,7 @@ export const NavBar = () => {
               </Button>
             ))}
           </Box>
-<<<<<<< HEAD
-          <Box width="20%" sx={styles.containerMD}></Box>
-=======
           <Box sx={styles.containerMD}></Box>
->>>>>>> develop
           <Box sx={styles.menuXS}>
             <IconButton
               size="small"
@@ -138,10 +120,7 @@ export const NavBar = () => {
                 <MenuItem key={item} onClick={handleCloseNavMenu}>
                   <Button
                     fullWidth
-<<<<<<< HEAD
-=======
                     size="small"
->>>>>>> develop
                     color="secondary"
                     component={Link}
                     to={item.path}

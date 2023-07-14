@@ -4,11 +4,6 @@ import BRANDS from "../../data/brands.json";
 
 export const BrandItems = () => {
   return (
-<<<<<<< HEAD
-    <Box sx={styles.box}>
-      {BRANDS.map((brand) => (
-        <Box component="a" href={brand.url} target="_blank">
-=======
     <Container sx={styles.container}>
       <Divider flexItem>
         <Typography
@@ -22,7 +17,6 @@ export const BrandItems = () => {
       </Divider>
       <Box sx={styles.box}>
         <Box component="a" href={BRANDS[0].url} target="_blank">
->>>>>>> develop
           <Box
             component="img"
             alt={BRANDS[0].name}

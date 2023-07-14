@@ -14,19 +14,6 @@ const Home = () => {
         <HomeTitleMD />
         <HomeDetails />
       </Container>
-<<<<<<< HEAD
-      <Divider flexItem>
-        <Typography
-          variant="caption"
-          fontFamily="Roboto Mono"
-          color="primary"
-          textTransform="uppercase"
-        >
-          Partners
-        </Typography>
-      </Divider>
-=======
->>>>>>> develop
       <BrandItems />
     </Container>
   );

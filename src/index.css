@@ -2,11 +2,7 @@ html {
   scrollbar-color: rgba(255, 255, 255, 0.1) #282828;
 }
 
-<<<<<<< HEAD
-::-webkit-scrollbar {
-=======
 /* ::-webkit-scrollbar {
->>>>>>> develop
   height: 12px;
   width: 12px;
   background: #282828;
@@ -20,8 +16,4 @@ html {
 
 ::-webkit-scrollbar-corner {
   background: #282828;
-<<<<<<< HEAD
-}
-=======
 } */
->>>>>>> develop

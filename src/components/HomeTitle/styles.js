@@ -19,10 +19,4 @@ export const styles = {
     justifyContent: "center",
     gap: ".5rem",
   },
-  box: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    gap: ".5rem",
-  },
 };

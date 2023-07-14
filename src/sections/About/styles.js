@@ -1,17 +1,10 @@
 export const styles = {
   container: {
-<<<<<<< HEAD
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-=======
     flex: 1,
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "space-evenly",
->>>>>>> develop
   },
   box: {
     display: "flex",
@@ -26,18 +19,11 @@ export const styles = {
     gap: ".2rem",
   },
   boxXs: {
-<<<<<<< HEAD
-    width: "360px",
-    borderRadius: "12px",
-    backgroundColor: "rgba(255, 255, 255, 0.01)",
-    border: "1px solid rgba(255, 255, 255, 0.05)",
-=======
     width: "330px",
     borderRadius: "12px",
     backgroundColor: "rgba(255, 255, 255, 0.01)",
     border: "1px solid rgba(255, 255, 255, 0.05)",
     p: "12px",
->>>>>>> develop
     my: "32px",
     display: { xs: "flex", md: "none" },
     flexDirection: "column",
@@ -53,45 +39,26 @@ export const styles = {
     flexDirection: "column",
   },
   containerCompany: {
-<<<<<<< HEAD
-    mt: "12px",
-    mb: "32px",
-=======
->>>>>>> develop
     display: "flex",
     flexDirection: { xs: "column", md: "row" },
     justifyContent: "center",
-<<<<<<< HEAD
-    alignItems: { xs: "center", md: "flex-start" },
-    gap: { xs: "22px", md: "62px" },
-=======
     alignItems: "center",
     gap: "22px",
->>>>>>> develop
   },
   boxTeam: {
     width: "100%",
     display: "flex",
-<<<<<<< HEAD
-    flexDirection: "column",
-    gap: { xs: "18px", md: "32px" },
-    justifyContent: "center",
-    alignItems: "center",
-=======
     flexDirection: { xs: "column", md: "row" },
     flexWrap: "wrap",
     mb: { xs: "32px", md: "0px" },
     justifyContent: "space-around",
     alignItems: "center",
     gap: { xs: "22px", md: "12px" },
->>>>>>> develop
   },
   boxMember: {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-<<<<<<< HEAD
-=======
   },
   memberPosition: {
     fontSize: ".8rem",
@@ -101,7 +68,6 @@ export const styles = {
     fontSize: ".8rem",
     lineHeight: "1rem",
     fontFamily: "Roboto Mono",
->>>>>>> develop
   },
   text1: {
     fontSize: {
