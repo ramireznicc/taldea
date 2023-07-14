@@ -3,13 +3,11 @@ export const styles = {
     display: { xs: "none", md: "flex" },
     flexDirection: "column",
     alignItems: "center",
-    my: "32px",
   },
   boxXS: {
     display: { xs: "flex", md: "none" },
     flexDirection: "column",
     alignItems: "flex-end",
-    my: "22px",
   },
   textXS: {
     fontWeight: "bold",

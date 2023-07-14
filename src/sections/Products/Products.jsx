@@ -6,8 +6,6 @@ const Products = () => {
   const categories = products.map((item) => item.category);
   const categoriesUnique = [...new Set(categories)];
 
-  console.log(categoriesUnique);
-
   return (
     <Container
       maxWidth="md"

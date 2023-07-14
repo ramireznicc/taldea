@@ -5,7 +5,7 @@ export const styles = {
     alignItems: "center",
     gap: "2rem",
     backgroundColor: "rgba(255, 255, 255, 0.01)",
-    p: { xs: "1.5rem 1rem", md: "1rem .5rem" },
+    p: { xs: "1.5rem 2rem", md: "1rem 1.5rem" },
     borderRadius: "12px",
     border: "1px solid rgba(255, 255, 255, 0.05)",
     scale: ".9",
@@ -18,6 +18,6 @@ export const styles = {
   },
   text: {
     fontFamily: "Roboto Mono",
-    opacity: ".8",
+    opacity: ".7",
   },
 };

@@ -1,4 +1,4 @@
-import { Container, Divider, Typography } from "@mui/material";
+import { Container } from "@mui/material";
 
 import { HomeTitleXS } from "../../components/HomeTitle/HomeTitleXS";
 import { HomeTitleMD } from "../../components/HomeTitle/HomeTitleMD";
@@ -14,16 +14,6 @@ const Home = () => {
         <HomeTitleMD />
         <HomeDetails />
       </Container>
-      <Divider flexItem>
-        <Typography
-          variant="caption"
-          fontFamily="Roboto Mono"
-          color="primary"
-          textTransform="uppercase"
-        >
-          Main Partners
-        </Typography>
-      </Divider>
       <BrandItems />
     </Container>
   );

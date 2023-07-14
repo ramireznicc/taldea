@@ -1,17 +1,17 @@
 export const styles = {
   container: {
     flex: 1,
-    my: "4rem",
+    my: "5rem",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    gap: "42px",
+    gap: { xs: "22px", md: "44px" },
   },
   header: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-evenly",
     alignItems: "center",
-    gap: "1rem",
+    gap: { xs: "22px", md: "44px" },
   },
 };
